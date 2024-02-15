@@ -1,5 +1,6 @@
 import React from "react";
-import styles from './header.module.css'
+import styles from './header.module.css';
+import SearchIcon from "../assets/buscar.png";
 
 type HeaderProps = {
     query: string;

@@ -8,8 +8,6 @@ import { Pokemon } from "../types/types";
 import LoadingScreen from "../components/LoadingScreen";
 import { waitFor } from "../utils/utils";
 
-
-
 const Pokemons = () => {
     const [isLoading, setIsLoading] = useState(false)
     const [query, setQuery] = useState("")
@@ -59,6 +57,7 @@ const Pokemons = () => {
                     ))}
                 </nav>
             </main>
+            <br/><br/><br/><br/>
             <Footer />
         </>
     );
