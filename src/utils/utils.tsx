@@ -15,3 +15,8 @@ export function formatPokemonName(name: string):string {
 export function waitFor(time: number): Promise<void> {
     return new Promise<void>((resolve) => setTimeout(resolve, time));
 }
+
+export function formatItemName(name: string):string {
+    const formatedName = name.charAt(0).toUpperCase() + name.slice(1)
+    return formatedName;
+}

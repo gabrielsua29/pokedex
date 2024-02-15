@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { useNavigate, useParams } from "react-router-dom";
 import PokeballImg from "../assets/pokeball.png";
-import  BulbasaurImg from "../assets/bulbasaur.gif";
 import Footer from "../components/Footer";
 import styles from "./pokemon.module.css";
 import { PokemonDetails } from "../types/types";

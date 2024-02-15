@@ -1,16 +1,16 @@
 import React from "react";
 import styles from './header.module.css';
-import SearchIcon from "../assets/buscar.png";
 
 type HeaderProps = {
+    placeholder: string;
     query: string;
     setQuery: (query: string) => void;
 }
 
-const Header = ({ query, setQuery }: HeaderProps) => {
+const Header = ({ placeholder, query, setQuery }: HeaderProps) => {
     return(
         <header className={styles.header}>
-            <input className={styles.input} type="text" placeholder="Search a Pokemon" value={query}
+            <input className={styles.input} type="text" placeholder={placeholder} value={query}
             onChange={(e) => setQuery(e.target.value)}/>
         </header> 
     )

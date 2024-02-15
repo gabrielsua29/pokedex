@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
-import styles from "./pokemons.module.css";
+import styles from "./showlist.module.css";
 import { fetchPokemons } from "../api/fetchPokemons";
 import { Pokemon } from "../types/types";
 import LoadingScreen from "../components/LoadingScreen";
@@ -35,7 +35,7 @@ const Pokemons = () => {
 
     return (
         <>
-            <Header query={query} setQuery={setQuery}/>
+            <Header placeholder="Search a pokemon" query={query} setQuery={setQuery}/>
             <main>
                 <nav>
                     {filteredPokemons?.slice(0, 151).map((pokemon) => (

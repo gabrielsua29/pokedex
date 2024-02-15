@@ -12,3 +12,9 @@ export type PokemonDetails = {
     attack: number;
     defense: number;
 }
+
+export type Item = {
+    name: string;
+    id: string;
+    imgSrc: string;
+}
