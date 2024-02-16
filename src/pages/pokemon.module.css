@@ -1,5 +1,5 @@
 .pokemon {
-    height: 85vh;
+    height: 60vh;
 }
 
 .pokeballButton {
@@ -23,6 +23,7 @@
     flex-direction: column;
     align-items: center;
     margin: 100px 0;
+    font-style: italic;
 }
 
 .pokemonInfoImg {

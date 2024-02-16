@@ -1,6 +1,6 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import './App.css';
-import { Pokemon, Pokemons, Items } from './pages';
+import { Pokemon, Pokemons, Items, Item } from './pages';
 
 function App() {
   return (
@@ -11,6 +11,7 @@ function App() {
           <Route path="/pokemons" element={<Pokemons />} />
           <Route path="/pokemons/:name" element={<Pokemon />} />
           <Route path="/items" element={<Items />} />
+          <Route path="/items/:name" element={<Item />} />
         </Routes>
       </div>
     </Router>
