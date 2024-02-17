@@ -19,7 +19,11 @@
     left: 50%;
     transform: translate(-50%, -50%); /* Center the item using translation */
     border-radius: 20px;
-    box-shadow: 0 0 40px rgba(0, 0, 0, 0.1);    
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.1);
+    border: 2px solid rgba(0, 0, 0, 0.643);  
+    background-image: url("../assets/cardBg.png");
+    background-size: cover;
+    background-position: center;  
 }
 
 .pokeballButton {
@@ -28,8 +32,13 @@
     outline: none;
     display: flex;
     align-items: center;
-    background: none;
-    padding: 30px 50px 0 50px;
+    background: var(--bg-gradient);
+    margin: 30px 30px;
+    padding: 10px 50px 10px 50px;
+    font-weight: bold;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    font-size: 15px;
 }
 
 .pokeballImg {

@@ -43,3 +43,7 @@
     font-size: 0.8rem;
     display: block;
 }
+
+.listItem:hover {
+    background-color: rgba(229, 237, 255, 0.554);
+}

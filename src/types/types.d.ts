@@ -1,7 +1,8 @@
 export type Pokemon = {
     name: string;
     id: string;
-    imgSrc: string;   
+    imgSrc: string;
+    type: string;   
 }
 
 export type PokemonDetails = {

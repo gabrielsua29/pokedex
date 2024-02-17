@@ -34,6 +34,7 @@ const Pokemon = () => {
 
     return(
         <>
+            <div className={styles.background}>
             <button className={styles.pokeballButton} onClick={() => navigate(-1)}>
                 <img className={styles.pokeballImg} src={PokeballImg} alt="Pokeball" />
                 Go Back
@@ -49,6 +50,7 @@ const Pokemon = () => {
                     <div>Attack: {pokemon?.attack}</div>
                     <div>Defense: {pokemon?.defense}</div>
                 </main>
+            </div>
             </div>
             <Footer />
         </>

@@ -7,6 +7,11 @@
     background: var(--bg-gradient); /*--bg-gradient es una variable del App.css que contiene el color gradient*/
 }
 
+.inputContainer {
+    display: flex;
+    align-items: center;
+}
+
 /*Barra de busqueda*/
 .input {
     background-color: rgba(121, 121, 121, 0.267);
@@ -15,4 +20,31 @@
     margin: 10px 10px;
     border: none;
     width: 80vw;
+}
+
+.userContainer {
+    margin: 0 50px;
+    padding: 10px 10px;
+}
+
+.loginLink {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    background-color: #df685ba9;
+    color: #fff; 
+    font-size: 20px;
+    font-style: italic;
+    padding: 10px 20px; /* Add padding for better clickability */
+    border-radius: 5px; /* Add rounded corners */
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.loginLink:hover {
+    background-color: #df685b;
+}
+
+.loginIcon {
+    padding: 0 10px;
 }
