@@ -20,10 +20,6 @@
     object-fit: contain;
 }
 
-.listItemText {
-    flex-grow: 2;
-}
-
 .listItemText > :first-child {
     background: -webkit-linear-gradient(
         rgba(124, 166, 252, 1) 25%,
@@ -37,7 +33,7 @@
     font-weight: bold;
 }
 
-.listItemText > :last-child {
+.listItemText {
     color: grey;
     font-weight: bolder;
     font-size: 0.8rem;
@@ -46,4 +42,17 @@
 
 .listItem:hover {
     background-color: rgba(229, 237, 255, 0.554);
+}
+
+.pokemonTypeIcon {
+    display: inline;
+    max-width: 15px;
+    width: 100%;
+    margin-left: 4px;
+    object-fit: contain;
+}
+
+.iconContainer {
+    display: inline;
+    margin: 0 10px;
 }
